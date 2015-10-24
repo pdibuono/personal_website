@@ -5,3 +5,8 @@ body {
 #buttons {
   display: inline-block;
 }
+
+ol {  //THERE MAY BE OTHER ELEMENTS IN THE LIST
+    margin:3;
+    padding:20;
+}
