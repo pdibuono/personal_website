@@ -16,6 +16,9 @@ class ContactCreateView(CreateView):
 
 class Success(TemplateView):
     template_name = "success.html"
-    
+
 class AboutMeView(TemplateView):
     template_name = 'aboutme.html'
+
+class ContactInfoView(TemplateView):
+    template_name = 'contact_info.html'
