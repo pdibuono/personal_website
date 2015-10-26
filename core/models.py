@@ -4,7 +4,7 @@ VISIBILITY_CHOICES = (
 (0, ''),
 (1, 'Ms.'),
 (2, 'Mrs.'),
-(3, 'Mr'),
+(3, 'Mr.'),
 (4, 'Dr.'),
 )
 
