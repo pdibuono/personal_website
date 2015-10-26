@@ -18,4 +18,4 @@ class Contact(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __unicode__(self):
-      return self.title
+      return self.First_Name
