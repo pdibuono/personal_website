@@ -13,7 +13,7 @@ class Contact(models.Model):
     title = models.IntegerField(choices=VISIBILITY_CHOICES, default=0)
     First_Name = models.CharField(max_length=300, default="")
     Last_Name = models.CharField(max_length=300, default="")
-    email = models.CharField(max_length=300)
+    email = models.EmailField(max_length=300)
     description = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

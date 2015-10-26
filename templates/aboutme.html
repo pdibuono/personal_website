@@ -1,16 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load staticfiles %}
-
-<h1><font size ="20">Meet Phil:<h1>
-  <ol><font size ="5">Accomplishments
+<div class="jumbotron">
+  <h1 class="display-3"><center>Phil DiBuono</center></h1>
+  <ol style="text-align: left"><font size ="5"><h3>Accomplishments</h3>
   <li>Plan to graduate with a total GPA of 3.5</li>
   <li>Successfully Completed Information Systems Internship</li>
   <li>Create This Website</li>
-  </ol>
-
-<ol><font size ="5">Prior Work Experience
+    </ol>
+&nbsp
+  <ol><font size ="5"><h3>Prior Work Experience</h3>
   <li>WESTMED Practice Partners Analytics Team</li>
   <li>International Snackbar Company Manager</li>
+    <li>MetalQuest Materials Coordinator</li>
 <p><center><img src="{% static "images/aboutmepic.png" %}"></center></p>
+  </div>
 {% endblock %}
