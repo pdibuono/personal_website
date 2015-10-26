@@ -1,7 +1,7 @@
 from django.db import models
 
 VISIBILITY_CHOICES = (
-(0, ''),
+(0, 'Choose the dropdown to Select'),
 (1, 'Ms.'),
 (2, 'Mrs.'),
 (3, 'Mr.'),
