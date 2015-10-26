@@ -11,7 +11,7 @@ class Home(TemplateView):
 class ContactCreateView(CreateView):
     model = Contact
     template_name = "contact/contact_form.html"
-    fields = ['title', 'name', 'email', 'description']
+    fields = ['title', 'First_Name', 'Last_Name', 'email', 'description']
     success_url = reverse_lazy('success')
 
 class Success(TemplateView):
